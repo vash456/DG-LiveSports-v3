@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "306130730098",
+    "firebase_url": "https://final-dygsports.firebaseio.com",
+    "project_id": "final-dygsports",
+    "storage_bucket": "final-dygsports.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306130730098:android:8e32df68301ab9f9",
+        "android_client_info": {
+          "package_name": "com.dg_livesports.dg_livesports"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306130730098-086iunm6frv4mvbr8pqv9ohaqrjp2u2f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dg_livesports.dg_livesports",
+            "certificate_hash": "494AFF3DDD6908AC333181D7672F44E55270E96B"
+          }
+        },
+        {
+          "client_id": "306130730098-1hpq7e8t2n195di9th0ud44pao5qlhob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWtUGAjD_RM7Xue73Ys_k8AKpxdQW--nA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306130730098-1hpq7e8t2n195di9th0ud44pao5qlhob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

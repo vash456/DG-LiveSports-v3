@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="8dp"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/imagen_Shield"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.3"
+        android:padding="5dp"
+        android:layout_gravity="left"
+        android:src="@drawable/esc_local"/>
+
+    <TextView
+        android:id="@+id/t_nombreEquipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        android:text="local"
+        android:textSize="16dp"
+        android:padding="2dp"
+        android:layout_gravity="center_vertical"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:background="@color/white"
+            android:id="@+id/Imagenbutton"
+            android:layout_weight="0.1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:adjustViewBounds="true"
+            android:padding="7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/favoritos_buttom_off"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

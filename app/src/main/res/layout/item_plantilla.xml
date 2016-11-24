@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/temaGrisApp"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/temaGrisApp"
+        android:padding="4dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/t_squadNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textSize="16dp"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:padding="2dp"/>
+
+        <ImageView
+            android:id="@+id/img_jugador"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="3dp"
+            android:gravity="left"
+            android:src="@drawable/img_jugador"/>
+
+        <TextView
+            android:id="@+id/t_nick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:padding="2dp"/>
+        <TextView
+            android:id="@+id/t_CountryCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="(CC)"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:padding="2dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:background="@color/temaGrisApp"
+        android:padding="4dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/t_role"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="posicion"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:gravity="right"
+            android:padding="2dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

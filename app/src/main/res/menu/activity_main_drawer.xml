@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_principal"
+            android:icon="@drawable/icon_soccer"
+            android:title="@string/principal" />
+        <!--android:icon="@drawable/ic_home_black_24dp"-->
+
+        <!--<item
+        android:id="@+id/nav_resultados"
+        android:icon="@drawable/icon_soccer"
+        android:title="@string/resultados" />-->
+        <item
+            android:id="@+id/nav_partidos_tablas"
+            android:icon="@drawable/icon_field_football"
+            android:title="@string/partidos_tablas" />
+        <item
+            android:id="@+id/nav_noticias"
+            android:icon="@drawable/icon_news"
+            android:title="@string/noticias" />
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/videos" />
+        <!--<item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/ic_forum_black_24dp"
+            android:title="@string/social" />-->
+        <!--<item
+            android:id="@+id/nav_notificaciones"
+            android:icon="@drawable/ic_add_alert_black_24dp"
+            android:title="@string/notificaciones" />-->
+        <item
+            android:id="@+id/nav_configuracion"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/configuracion" />
+    </group>
+
+</menu>

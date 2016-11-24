@@ -1,0 +1,54 @@
+<resources>
+    <string name="facebook_app_id">224835571285056</string>
+
+    <string name="app_name">DG LiveSports</string>
+    <string name="title_activity_main">DG LiveSports</string>
+    <string name="title_activity_configuraciones">Configuracion</string>
+    <string name="title_activity_Login">Login</string>
+    <string name="title_activity_noticias">Noticias</string>
+    <string name="title_activity_notificaciones">Notificacioes</string>
+    <string name="title_activity_parttablas">Partidos y Tablas</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_resultados">Resultados</string>
+    <string name="title_activity_social">Social</string>
+    <string name="title_activity_videos">Videos</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="principal">Principal</string>
+    <string name="resultados">Resultados</string>
+    <string name="partidos_tablas">Partidos y Tablas</string>
+    <string name="noticias">Noticias</string>
+    <string name="videos">Videos</string>
+    <string name="social">Social</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+
+    <!-- Estados de sesion -->
+    <string name="abierta">abierta</string>
+    <string name="cerrada">cerrada</string>
+
+    <!--Array con los valores de la cabecera de la tabla-->
+    <string-array name="cabecera_tabla">
+        <item>Pos</item>
+        <item>  </item>
+        <item>  </item>
+        <item>Equipo</item>
+        <item>Puntos</item>
+        <item>P.J.</item>
+        <item>G. </item>
+        <item>E. </item>
+        <item>P. </item>
+        <item>G.F.</item>
+        <item>G.C.</item>
+        <item>D.G.</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+</resources>
